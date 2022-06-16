@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="button">
+        <item name="android:layout_width">@dimen/buttonWidth</item>
+        <item name="android:layout_height">@dimen/buttonHeight</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:textSize">@dimen/buttonText</item>
+    </style>
+
+    <style name="button2">
+        <item name="android:layout_width">@dimen/buttonWidth2</item>
+        <item name="android:layout_height">@dimen/buttonHeight2</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:textSize">@dimen/buttonText2</item>
+    </style>
+    
+    <style name="textview">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textview</item>
+        <item name="android:textColor">@color/textview</item>
+    </style>
+
+    <style name="textview2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/textview2</item>
+        <item name="android:textColor">#1B1A1A</item>
+    </style>
+
+    <style name="some_id">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>
